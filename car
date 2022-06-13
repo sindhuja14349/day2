@@ -1,0 +1,37 @@
+
+package day2;
+public class car {
+	public void printCarName() {
+		System.out.println("i20");
+	}
+
+	private String getCarColor()	{
+		String  getCarColor = "Fire Red";
+		return getCarColor;	
+		
+		
+	}
+	
+	boolean isCarPunctured() {
+		return false;
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+	car obj= new car();
+		
+		obj.printCarName();
+	
+		String carColor = obj.getCarColor();
+		System.out.println(carColor);
+		boolean carPunctured = obj.isCarPunctured();
+		System.out.println(carPunctured);
+		
+		
+		
+		
+	}
+
+}
