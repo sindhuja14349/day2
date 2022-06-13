@@ -1,0 +1,40 @@
+package day2;
+
+public class car2 {
+
+	public  boolean applyBreak() 
+	{
+		
+		boolean applyBreak;
+		return true;
+		
+	}
+	
+	public boolean applyGear() 
+	{
+		boolean applyGear;
+		return false;
+		
+	}
+	
+	private String switchOnAc() {
+		String switchOnAc = "yes";
+		return switchOnAc;
+	}
+	public void applyAcclerate()
+	{
+		System.out.println("yes");
+	}
+	public static void main(String[] args) {
+		
+		car2 obj= new car2();
+		boolean break1 = obj.applyBreak();
+		System.out.println(break1);
+		boolean gear = obj.applyGear();
+		System.out.println(gear);
+		String onAc = obj.switchOnAc();
+		System.out.println(onAc);
+		obj.applyAcclerate();
+		
+	}
+}
