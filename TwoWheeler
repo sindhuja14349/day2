@@ -1,0 +1,59 @@
+package day2;
+
+public class TwoWheeler 
+{
+
+public int noOfwheels()
+{
+	int noOfWheels =4;
+	return noOfWheels;
+}
+public short noOfMirrors()
+{
+short noOfMirrors =3;
+return  noOfMirrors;
+}
+private long chassisNumber() {
+	long chassisNumber = 12;
+	return  chassisNumber;
+}
+
+
+	boolean isPunctured()
+	{
+		return false;
+	}
+	
+	private String bikeName()
+	{
+		String bikeName = "gjhghjgh" ;
+		return bikeName;
+		
+	}
+	private double runningKM() {
+		double runningKM = 59890809;
+		return runningKM;
+		
+		
+	}
+	//create object for TwoWheeler and call all the variables inside main method and print the values.
+	
+	public static void main(String[] args)
+	{
+		TwoWheeler obj=new TwoWheeler();
+	int wheels = obj.noOfwheels();
+	System.out.println(wheels);
+	short mirrors = obj.noOfMirrors();
+	System.out.println(mirrors);
+	boolean punctured = obj.isPunctured();
+	System.out.println(punctured);
+	String bikeName = obj.bikeName();
+	System.out.println(bikeName);
+	double km = obj.runningKM();
+	System.out.println(km);
+	
+	}
+	
+}
+
+
