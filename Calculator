@@ -1,0 +1,20 @@
+package day2;
+
+public class Calculator {
+	public int add(int a, int b) {
+		return a+b;
+		
+	}
+	public float sub(float a, float b)
+	{
+		return a-b;
+		
+	}
+public double mul(double a, double b, double c) {
+	return a*b*c;
+}
+public float div(int a, int b) {
+	return a/b;
+}
+}
+ 
